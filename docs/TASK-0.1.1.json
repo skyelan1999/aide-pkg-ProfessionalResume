@@ -18,7 +18,7 @@
     "hostPreviewJS": 4,
     "chromeFiles": "passed; disk decrypt readback and conflict preservation",
     "legacyHost": "passed full browser flow",
-    "pending": "final publication and protected-branch merge",
+    "pending": "protected branch review/explicit admin merge only",
     "packageSHA256": "36e03a6d88bf9f84ce3404635e109c15ed047b107a1e078fb8dde2b125acb27c",
     "hostBinarySHA256": "f826f1f8bd610bba6391bc1c6372a26f908bbcbfc5e4e00ab674b921923aa9d4",
     "chromeReport": {
@@ -41,5 +41,18 @@
     }
   },
   "runtime": "isolated candidate source and existing RC3 image; production not replaced",
-  "privacy": "fictional data only; binary PRDB v1 unchanged; no model/password sharing added"
+  "privacy": "fictional data only; binary PRDB v1 unchanged; no model/password sharing added",
+  "release": {
+    "url": "https://github.com/skyelan1999/aide-pkg-ProfessionalResume/releases/tag/v0.1.1",
+    "status": "published prerelease",
+    "publicDownload": "HTTP200;54871 bytes;SHA256 matched exact tested package",
+    "pluginCI": "https://github.com/skyelan1999/aide-pkg-ProfessionalResume/actions/runs/43052233167",
+    "hostPR": "https://github.com/skyelan1999/aide/pull/851",
+    "hostCI": "https://github.com/skyelan1999/aide/actions/runs/43052764936",
+    "hostCIStatus": "quick/go/gate passed in final run; earlier duplicate push run was cancelled",
+    "marketPR": "https://github.com/skyelan1999/aide-pkg-shop/pull/37",
+    "marketCI": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43052629915",
+    "statusOfMerge": "awaiting code-owner review or explicit administrative merge authorization for these two PRs"
+  },
+  "cleanup": "isolated candidate and legacy containers removed; browser contexts closed; production unchanged"
 }
