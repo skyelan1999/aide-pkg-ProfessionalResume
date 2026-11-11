@@ -1,0 +1,14 @@
+{
+  "name": "aide-pkg-professional-resume",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "build": "node scripts/build.cjs",
+    "package": "python3 scripts/package.py"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  }
+}

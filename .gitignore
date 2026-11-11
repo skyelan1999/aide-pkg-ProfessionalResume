@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.test-output/
+*.pr
+*.prtask.json
+*.prresult.json
+.DS_Store

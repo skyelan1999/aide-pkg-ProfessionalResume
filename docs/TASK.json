@@ -1,0 +1,40 @@
+{
+  "task": "professional-resume-010",
+  "version": "0.1.0",
+  "date": "2026-11-11",
+  "client": "Codex desktop",
+  "userAuthorization": "为aide做一套简历处理插件，扩展名.pr，叫Professional Resume，丰富好之后直接生成插件，插件为public。",
+  "scope": [
+    "This standalone plugin repository",
+    "Public GitHub source and release",
+    "Public marketplace listing/package"
+  ],
+  "coreChanged": false,
+  "productionChanged": false,
+  "stages": {
+    "requirements": "pass",
+    "design": "pass",
+    "implementation": "pass",
+    "verification": "pass",
+    "documentation": "pass",
+    "cleanup": "pass",
+    "release": "in_progress"
+  },
+  "evidence": {
+    "unitTests": 14,
+    "browser": "Chrome 153.0.8010.12 and WebKit 27.2",
+    "host": "Aide 0.1.18.0 RC3 / aide:source-0653b625c3392f1386bd",
+    "testData": "fictional only",
+    "paidModelCalls": false,
+    "realCompanyResearch": false,
+    "packageSHA256": "adba148c7d52b78ea58d74ac76a990afe27d0f3650303b62e9170e36c0648212"
+  },
+  "limits": [
+    "15 MiB plaintext per .pr, no fixed resume-count cap",
+    "Aide task requires user to send prepared instruction in its conversation",
+    "Enterprise facts and model writing quality need real-world verification",
+    "No system Safari full-flow or native Windows acceptance",
+    "No direct PDF generator; printable HTML export",
+    "No auto application sending"
+  ]
+}
