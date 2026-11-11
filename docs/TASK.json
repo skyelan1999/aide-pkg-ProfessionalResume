@@ -36,5 +36,23 @@
     "No system Safari full-flow or native Windows acceptance",
     "No direct PDF generator; printable HTML export",
     "No auto application sending"
-  ]
+  ],
+  "release": {
+    "repository": "https://github.com/skyelan1999/aide-pkg-ProfessionalResume",
+    "visibility": "PUBLIC",
+    "sourceCommit": "9b0527707749efd02b96d6ebc08e45582c6d47c4",
+    "sourceCI": "https://github.com/skyelan1999/aide-pkg-ProfessionalResume/actions/runs/43038911756",
+    "releaseURL": "https://github.com/skyelan1999/aide-pkg-ProfessionalResume/releases/tag/v0.1.0",
+    "releaseStatus": "published prerelease",
+    "publicUnauthenticatedDownload": "HTTP 200; 44663 bytes; exact SHA-256 matched",
+    "marketPR": "https://github.com/skyelan1999/aide-pkg-shop/pull/36",
+    "marketCI": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43039281946",
+    "marketStatus": "CI passed; awaiting one code-owner approval required by main branch protection",
+    "centralIssue": "https://github.com/skyelan1999/aide/issues/849"
+  },
+  "cleanup": {
+    "isolatedTestContainer": "removed",
+    "browserSessions": "closed",
+    "productionService": "unchanged"
+  }
 }
