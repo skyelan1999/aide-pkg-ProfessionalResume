@@ -25,3 +25,5 @@ node test/browser-host.cjs
 本地原始结果和截图在被 Git 忽略的 `.test-output/final/`；经筛选的纯虚构界面截图在 `docs/screenshots/`。公开包与测试使用同一产品代码。发布时可通过对应Git提交复核源文件与自包含工作台。
 
 未验证边界：真实付费模型写作质量、真实企业调查准确性、系统Safari全流程、用户生产资料、原生Windows、15分钟空闲自动锁定的真实计时、完整Word/LibreOffice跨版本排版矩阵、实际招聘投递。Word仅验证浏览器下载与ZIP/XML结构；打印版HTML可供系统浏览器另存PDF，本版不内置PDF生成器。确定性测试结果不冒充真实模型或企业尽调。
+
+市场发布已完成：用户明确授权本次管理员合并后，PR #36 合并为 `f4d540f8b07409f6ed6b409655af284c02331bb9`；[Pages部署](https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43040977240)成功。线上目录版本0.1.0 / distribution=public，`.pr`路由存在。2026-11-11T14:42:53Z读取公开安装包44,663 bytes，SHA-256与已测试Release一致；真实Chrome市场搜索、详情和下载按钮报告校验通过，下载文件摘要再次一致。[官方市场](https://skyelan1999.github.io/aide-pkg-shop/)

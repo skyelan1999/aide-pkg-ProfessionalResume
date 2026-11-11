@@ -18,7 +18,7 @@
     "verification": "pass",
     "documentation": "pass",
     "cleanup": "pass",
-    "release": "in_progress"
+    "release": "pass"
   },
   "evidence": {
     "unitTests": 14,
@@ -47,8 +47,15 @@
     "publicUnauthenticatedDownload": "HTTP 200; 44663 bytes; exact SHA-256 matched",
     "marketPR": "https://github.com/skyelan1999/aide-pkg-shop/pull/36",
     "marketCI": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43039281946",
-    "marketStatus": "CI passed; awaiting one code-owner approval required by main branch protection",
-    "centralIssue": "https://github.com/skyelan1999/aide/issues/849"
+    "marketStatus": "published; live catalog, routing and package verified",
+    "centralIssue": "https://github.com/skyelan1999/aide/issues/849",
+    "marketURL": "https://skyelan1999.github.io/aide-pkg-shop/",
+    "marketMergeCommit": "f4d540f8b07409f6ed6b409655af284c02331bb9",
+    "marketMergedAt": "2026-11-11T14:41:52Z",
+    "marketAdminMergeAuthorization": "User explicitly authorized the administrative merge of marketplace PR #36 in this chat",
+    "marketDeployment": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43040977240",
+    "marketVerifiedAt": "2026-11-11T14:42:53.850Z",
+    "marketBrowserDownload": "Chrome search/detail/download flow passed; browser-reported integrity verification and SHA-256 matched tested release"
   },
   "cleanup": {
     "isolatedTestContainer": "removed",
