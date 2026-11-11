@@ -8,7 +8,7 @@
     "Generic Aide fileAccess bridge, native staging and exclusive publication",
     "Public plugin release and marketplace update"
   ],
-  "status": "verified; publishing in progress",
+  "status": "complete; public prerelease and marketplace published; host integration merged",
   "tests": {
     "pluginUnit": 18,
     "hostGoRelated": 28,
@@ -18,7 +18,7 @@
     "hostPreviewJS": 4,
     "chromeFiles": "passed; disk decrypt readback and conflict preservation",
     "legacyHost": "passed full browser flow",
-    "pending": "protected branch review/explicit admin merge only",
+    "pending": [],
     "packageSHA256": "36e03a6d88bf9f84ce3404635e109c15ed047b107a1e078fb8dde2b125acb27c",
     "hostBinarySHA256": "f826f1f8bd610bba6391bc1c6372a26f908bbcbfc5e4e00ab674b921923aa9d4",
     "chromeReport": {
@@ -52,7 +52,29 @@
     "hostCIStatus": "quick/go/gate passed in final run; earlier duplicate push run was cancelled",
     "marketPR": "https://github.com/skyelan1999/aide-pkg-shop/pull/37",
     "marketCI": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43052629915",
-    "statusOfMerge": "awaiting code-owner review or explicit administrative merge authorization for these two PRs"
+    "statusOfMerge": "both PRs administratively merged after explicit user authorization for these two PRs",
+    "hostMergeCommit": "6047b69c374799c4ac01df8ab335f16c14554c66",
+    "marketMergeCommit": "5bc34860634f28e205098c9b443b0241702ca3e0",
+    "hostMainCI": "https://github.com/skyelan1999/aide/actions/runs/43053496999",
+    "hostMainCIStatus": "success",
+    "marketDeployment": "https://github.com/skyelan1999/aide-pkg-shop/actions/runs/43053515730",
+    "marketDeploymentStatus": "success",
+    "market": "https://skyelan1999.github.io/aide-pkg-shop/",
+    "liveVerification": {
+      "pass": true,
+      "checkedAt": "2026-11-11T16:01:24.560Z",
+      "version": "0.1.1",
+      "distribution": "public",
+      "market": "https://skyelan1999.github.io/aide-pkg-shop/",
+      "package": "https://skyelan1999.github.io/aide-pkg-shop/packages/professional-resume/0.1.1-36e03a6d88bf.zip",
+      "bytes": 54871,
+      "sha256": "36e03a6d88bf9f84ce3404635e109c15ed047b107a1e078fb8dde2b125acb27c",
+      "mergeCommit": "5bc34860634f28e205098c9b443b0241702ca3e0",
+      "routing": true
+    },
+    "browserDownload": "real Chrome public listing download; 54871 bytes; SHA256 matched tested release; browser closed",
+    "sourceCommit": "e23693cfa6ccd3db0f502effde641ab454e49a77",
+    "activation": "Update or rebuild Aide with the merged host change first, then upgrade or reinstall Professional Resume 0.1.1 so fileAccess is registered. Running production RC3 was not replaced or restarted."
   },
   "cleanup": "isolated candidate and legacy containers removed; browser contexts closed; production unchanged"
 }
