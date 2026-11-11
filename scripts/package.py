@@ -4,7 +4,7 @@ import hashlib,json,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 manifest=json.loads((ROOT/'manifest.json').read_text())
-files=['manifest.json','index.js','tasks.js','src/core.js','workbench.html','LICENSE','README.md','AI-GUIDE.md','vendor/Aide-LICENSE','docs/FORMAT.md']
+files=['manifest.json','index.js','tasks.js','src/core.js','workbench.html','LICENSE','README.md','AI-GUIDE.md','vendor/Aide-LICENSE','docs/FORMAT.md','docs/FILES.md','docs/VERIFICATION.md']
 out=ROOT/'dist';out.mkdir(exist_ok=True)
 target=out/('aide-pkg-ProfessionalResume-v'+manifest['version']+'.zip')
 with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:

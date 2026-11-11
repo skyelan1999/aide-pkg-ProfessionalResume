@@ -1,7 +1,7 @@
 {
   "id": "professional-resume",
   "name": "Professional Resume",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "加密 .pr 简历资料库、多版本简历、企业与岗位调查、基于履历证据的岗位定制。",
   "main": "index.js",
   "author": "skyelan1999",
@@ -10,7 +10,26 @@
     "protocol": 1,
     "entry": "workbench.html",
     "title": "Professional Resume",
-    "tools": ["pr_guide", "pr_tasks", "pr_validate"],
-    "fileHandler": {"extensions": [".pr"], "priority": 20, "editable": true}
+    "tools": [
+      "pr_guide",
+      "pr_tasks",
+      "pr_validate"
+    ],
+    "fileHandler": {
+      "extensions": [
+        ".pr"
+      ],
+      "priority": 20,
+      "editable": true
+    },
+    "fileAccess": {
+      "protocol": 1,
+      "extensions": [
+        ".pr",
+        ".docx",
+        ".md",
+        ".html"
+      ]
+    }
   }
 }

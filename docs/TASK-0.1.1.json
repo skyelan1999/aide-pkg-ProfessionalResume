@@ -1,0 +1,45 @@
+{
+  "task": "professional-resume-files-011",
+  "version": "0.1.1",
+  "request": "需要额外支持工作区和引用的读取和保存",
+  "issue": "https://github.com/skyelan1999/aide/issues/850",
+  "scope": [
+    "Professional Resume file/source UI and package",
+    "Generic Aide fileAccess bridge, native staging and exclusive publication",
+    "Public plugin release and marketplace update"
+  ],
+  "status": "verified; publishing in progress",
+  "tests": {
+    "pluginUnit": 18,
+    "hostGoRelated": 28,
+    "hostRaceRelated": 12,
+    "hostJSParent": 23,
+    "hostJSClient": 6,
+    "hostPreviewJS": 4,
+    "chromeFiles": "passed; disk decrypt readback and conflict preservation",
+    "legacyHost": "passed full browser flow",
+    "pending": "final publication and protected-branch merge",
+    "packageSHA256": "36e03a6d88bf9f84ce3404635e109c15ed047b107a1e078fb8dde2b125acb27c",
+    "hostBinarySHA256": "f826f1f8bd610bba6391bc1c6372a26f908bbcbfc5e4e00ab674b921923aa9d4",
+    "chromeReport": {
+      "pass": true,
+      "version": "0.1.1",
+      "browser": "153.0.8010.12",
+      "checks": [
+        "install and fileAccess handshake",
+        "new encrypted workspace save only after trusted parent click",
+        "save as to writable reference without workspace fallback",
+        "read-only reference opens; save redirects to Save As and readonly target is disabled",
+        "wrong password preserves old database and file binding",
+        "Word/Markdown/HTML save to reference; database binding restored and subsequent PR save verified",
+        "external change refuses overwrite and preserves disk bytes",
+        "explicit abort and save-as preserve current local edits after conflict",
+        "desktop and 390px dark file picker"
+      ],
+      "paidModel": false,
+      "data": "fictional only"
+    }
+  },
+  "runtime": "isolated candidate source and existing RC3 image; production not replaced",
+  "privacy": "fictional data only; binary PRDB v1 unchanged; no model/password sharing added"
+}
